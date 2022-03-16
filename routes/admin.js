@@ -8,7 +8,6 @@ const chance = require('chance')();
 
 const router = require('koa-router')();
 const koaBody = require('koa-body')
-const {reject} = require("eslint-plugin-promise/rules/lib/promise-statics");
 
 router.get('/', async (ctx, next) => {
   // TODO: Реализовать, подстановку в поля ввода формы 'Счетчики'
