@@ -1,0 +1,37 @@
+{
+  "config": {
+    "mail": {
+      "subject": "Сообщение с сайта",
+      "send_to": "воспользуйтесь своим:)",
+      "smtp": {
+        "host": "smtp.yandex.ru",
+        "port": 465,
+        "secure": true,
+        "auth": {
+          "user": "воспользуйтесь своим:)",
+          "pass": "воспользуйтесь своим:)"
+        }
+      }
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "name":"Вася",
+      "login": "test@ya.ru",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name":"Коля",
+      "login": "test1@ya.ru",
+      "password": "111"
+    },
+    {
+      "id": 3,
+      "name":"Петя",
+      "login": "test2@ya.ru",
+      "password": "222"
+    }
+  ]
+}
